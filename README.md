@@ -1,27 +1,66 @@
 # AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.12.
+![Imagem do Projeto](./images/Projeto%20Blog%20-%20Angular.png)
 
-## Development server
+## 📝 Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este é o meu **primeiro projeto com Angular**, criado com o objetivo de aprender e praticar os conceitos básicos do framework. O projeto simula um **blog simples com tema da Marvel**, onde é possível navegar entre páginas e visualizar conteúdos relacionados.
 
-## Code scaffolding
+Apesar de ser um projeto inicial, ele já aborda as principais funcionalidades do Angular, como:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- ✅ Criação de **componentes**.
+- ✅ Configuração de **rotas** e navegação entre páginas.
+- ✅ Utilização de **data binding**.
+- ✅ Estruturação básica de um projeto Angular.
+- ✅ Organização de arquivos e boas práticas.
 
-## Build
+## 🛠️ Tecnologias utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [Angular](https://angular.io/)
+- HTML5
+- CSS3
+- TypeScript
 
-## Running unit tests
+## 📁 Estrutura do Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+```bash
+src/
+ ├── app/
+ │    ├── components/
+ │    ├── pages/
+ │    └── app-routing.module.ts
+ ├── assets/
+ └── environments/ 
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🚀 Como executar
 
-## Further help
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/angularblog.git
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Acesse a pasta do projeto:
+    ```bash
+    cd angularblog
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Rode o projeto localmente:
+    ```bash
+    ng serve
+    ```
+
+5. Acesse no navegador:
+    ```
+    http://localhost:4200/
+    ```
+
+## 🎯 Objetivo
+
+O principal objetivo deste projeto foi **praticar os fundamentos do Angular** e entender como funciona a criação de uma aplicação do zero, incluindo a separação de componentes, configuração de rotas e boas práticas de organização.
